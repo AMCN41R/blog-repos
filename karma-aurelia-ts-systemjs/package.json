@@ -1,0 +1,42 @@
+{
+  "name": "au-ts-jspm-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/es6-shim": "^0.31.33",
+    "@types/karma": "^0.13.35",
+    "@types/mocha": "^2.2.41",
+    "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-framework": "^1.1.2",
+    "aurelia-pal-browser": "^1.2.1",
+    "aurelia-polyfills": "^1.2.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "jspm": "^0.16.53",
+    "karma": "^1.6.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "lite-server": "^2.3.0",
+    "mocha": "^3.3.0",
+    "typescript": "^2.3.2"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.1.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.1.2",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.2.1",
+      "aurelia-polyfills": "npm:aurelia-polyfills@^1.2.1"
+    },
+    "devDependencies": {
+      "chai": "npm:chai@^3.5.0",
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
